@@ -1,0 +1,146 @@
+/* Globales */
+
+body {
+  margin: auto;
+  background-color: navajowhite;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: normal;
+  font-weight: bold;
+}
+
+button {
+  border: 3px solid white;
+  font-weight: bold;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(104, 71, 71);
+  padding: 20px;
+  margin-top: 70px;
+}
+
+/* Sección de botones */
+.buttons-typeof-pkmn {
+  padding: 10px;
+  border: 2px dashed rgba(35, 150, 60, 0.589);
+  margin: auto;
+  width: 90%;
+}
+
+.buttons-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons-wrapper button {
+  height: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  position: relative;
+}
+
+.Normal {
+  background-color: #bebdb0;
+}
+.Hierba {
+  background-color: #8dd851;
+}
+.Fuego {
+  background-color: #fa5543;
+}
+.Agua {
+  background-color: #56aeff;
+}
+.Lucha {
+  background-color: #a75544;
+}
+.Volador {
+  background-color: #7aa3fe;
+}
+.Veneno {
+  background-color: #a75c9e;
+}
+.Tierra {
+  background-color: #eccb56;
+}
+.Roca {
+  background-color: #cebd72;
+}
+.Bicho {
+  background-color: #c2d21f;
+}
+.Fantasma {
+  background-color: #7974d5;
+}
+.Eléctrico {
+  background-color: #fde33e;
+}
+.Psíquico {
+  background-color: #f964b4;
+}
+.Hielo {
+  background-color: #96f1ff;
+}
+.Siniestro {
+  background-color: #8e6956;
+}
+.Dragón {
+  background-color: #8a79fd;
+}
+.Acero {
+  background-color: #c4c2d9;
+}
+.Hada {
+  background-color: #f8adff;
+}
+
+/* Menú desplegable */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.dropdown-content a {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+.dropdown-content a:last-child {
+  margin-bottom: 0px;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(92, 240, 196);
+  color: white;
+}
+
+.is-active {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: ease-in-out 0.5s;
+}
