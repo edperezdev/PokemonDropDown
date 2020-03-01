@@ -15,18 +15,30 @@ button {
   border: 2.5px solid white;
   width: 100%;
 }
+/* Cherry */
 
+.cherry{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.658);
+  color: white;
+  font:bolder 1rem  monospace;
+  text-align: center;
+  line-height: 1.5rem;
+  height:1.5rem;
+}
 /* Header */
 
 header {
   display: flex;
-  width:80%;
+  width: 80%;
   align-items: center;
   justify-content: space-between;
   color: rgb(104, 71, 71);
   padding: 20px;
-  margin:auto;
-  
+  margin: auto;
 }
 
 .wrapper-description-header {
@@ -35,13 +47,12 @@ header {
   width: 40%;
   padding: 10px 20px;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 /* Sección de botones */
 .buttons-typeof-pkmn {
   padding: 10px;
-  /* border: 2px dashed rgba(35, 150, 60, 0.589); */
   margin: auto;
   background-color: rgba(97, 71, 102, 0.69);
   width: 80%;
@@ -148,10 +159,10 @@ header {
 .dropdown-content li:hover {
   background-color: rgba(113, 37, 132, 0.85);
   color: white;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.not-active{
+.not-active {
   display: none;
 }
 
@@ -161,32 +172,28 @@ header {
 
 /* Sección con imágenes de los pokemon */
 
-
-.pkmn-info{
-  display:flex;
-  margin-top:30px;
+.pkmn-info {
+  display: flex;
+  margin-top: 30px;
 }
-.article-pkmn{
-margin:auto;
+.article-pkmn {
+  margin: auto;
 }
-.figura-pkmn{
-  background-color:rgba(255, 255, 255, 0.623);
-  
+.figura-pkmn {
+  background-color: rgba(255, 255, 255, 0.623);
 }
-#img-pkmn{
-width:250px;
-height:250px;
-transition: all ease-in-out 2s;
+#img-pkmn {
+  width: 250px;
+  height: 250px;
+  transition: all ease-in-out 2s;
 }
 
-.name-pkmn-wrapper{
-  background-color:white;
-  padding:10px;
+.name-pkmn-wrapper {
+  background-color: white;
+  padding: 10px;
   text-align: center;
-  
 }
 
-.name-pkmn{
-  font-family: monospace;
-  font-size:1rem;
+.name-pkmn {
+  font: 1.2rem bolder monospace;
 }
