@@ -131,7 +131,7 @@ header {
   transition: ease-in-out 0.5s;
 }
 
-.dropdown-content a {
+.dropdown-content li {
   display: block;
   margin-bottom: 5px;
   color: black;
@@ -141,13 +141,14 @@ header {
   font-family: monospace;
 }
 
-.dropdown-content a:last-child {
+.dropdown-content li:last-child {
   margin-bottom: 0px;
 }
 
-.dropdown-content a:hover {
+.dropdown-content li:hover {
   background-color: rgba(113, 37, 132, 0.85);
   color: white;
+  cursor:pointer;
 }
 
 .not-active{
@@ -168,13 +169,14 @@ header {
 .article-pkmn{
 margin:auto;
 }
-.img-pkmn{
+.figura-pkmn{
   background-color:rgba(255, 255, 255, 0.623);
+  
 }
-.img-pkmn img{
-max-width:200px;
-max-height:500px;
-
+#img-pkmn{
+width:250px;
+height:250px;
+transition: all ease-in-out 2s;
 }
 
 .name-pkmn-wrapper{
