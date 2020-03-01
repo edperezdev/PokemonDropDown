@@ -2,7 +2,7 @@
 
 body {
   margin: auto;
-  background-image: url(/images/gengar.jpg);
+  background-image: url(/./../images/gengar.jpg);
   box-sizing: border-box;
 }
 
