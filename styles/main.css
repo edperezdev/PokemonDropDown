@@ -2,7 +2,7 @@
 
 body {
   margin: auto;
-  background-image: url(./../images/gengar.jpg);
+  background-image: url(./../images/fondo.jpg);
   box-sizing: border-box;
 }
 
@@ -52,7 +52,7 @@ header {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 
 .buttons-wrapper button {
@@ -123,7 +123,6 @@ header {
 /* Menú desplegable */
 
 .dropdown-content {
-  display: none;
   position: absolute;
   background-color: #f9f9f9ab;
   min-width: 80px;
@@ -151,13 +150,41 @@ header {
   color: white;
 }
 
+.not-active{
+  display: none;
+}
+
 .is-active {
   display: block;
-  position: absolute;
-  background-color: #f9f9f9e3;
-  min-width: 80px;
-  margin-left: 5px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  transition: ease-in-out 0.5s;
+}
+
+/* Sección con imágenes de los pokemon */
+
+
+.pkmn-info{
+  display:flex;
+  margin-top:30px;
+}
+.article-pkmn{
+margin:auto;
+}
+.img-pkmn{
+  background-color:rgba(255, 255, 255, 0.623);
+}
+.img-pkmn img{
+max-width:200px;
+max-height:500px;
+
+}
+
+.name-pkmn-wrapper{
+  background-color:white;
+  padding:10px;
+  text-align: center;
+  
+}
+
+.name-pkmn{
+  font-family: monospace;
+  font-size:1rem;
 }
