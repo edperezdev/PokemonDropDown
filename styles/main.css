@@ -2,18 +2,18 @@
 
 body {
   margin: auto;
-  background-color: navajowhite;
+  background-image: url(/images/gengar.jpg);
   box-sizing: border-box;
 }
 
 p {
-  line-height: normal;
-  font-weight: bold;
+  color: #251689;
+  font: bold 1rem monospace;
 }
 
 button {
-  border: 3px solid white;
-  font-weight: bold;
+  border: 2.5px solid white;
+  width: 100%;
 }
 
 /* Header */
@@ -25,29 +25,43 @@ header {
   justify-content: space-between;
   color: rgb(104, 71, 71);
   padding: 20px;
-  margin-top: 70px;
+  margin-top: 20px;
+}
+
+.wrapper-description-header {
+  background-color: rgba(255, 255, 255, 0.52);
+  min-height: 30px;
+  width: 40%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
 }
 
 /* Sección de botones */
 .buttons-typeof-pkmn {
   padding: 10px;
-  border: 2px dashed rgba(35, 150, 60, 0.589);
+  /* border: 2px dashed rgba(35, 150, 60, 0.589); */
   margin: auto;
-  width: 90%;
+  background-color: rgba(97, 71, 102, 0.69);
+  width: 80%;
 }
 
 .buttons-wrapper {
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
 }
 
 .buttons-wrapper button {
   height: 2rem;
   border-radius: 10px;
   cursor: pointer;
-  color: white;
+  color: rgba(0, 0, 0, 0.835);
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
 .Normal {
@@ -110,7 +124,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #f9f9f9ab;
   min-width: 80px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -119,11 +133,12 @@ header {
 
 .dropdown-content a {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   transition: ease-in-out 0.2s;
+  font-family: monospace;
 }
 
 .dropdown-content a:last-child {
@@ -131,15 +146,16 @@ header {
 }
 
 .dropdown-content a:hover {
-  background-color: rgb(92, 240, 196);
+  background-color: rgba(113, 37, 132, 0.85);
   color: white;
 }
 
 .is-active {
   display: block;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #f9f9f9e3;
   min-width: 80px;
+  margin-left: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   transition: ease-in-out 0.5s;
