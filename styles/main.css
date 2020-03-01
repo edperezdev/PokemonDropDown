@@ -20,12 +20,13 @@ button {
 
 header {
   display: flex;
-  flex-direction: column;
+  width:80%;
   align-items: center;
   justify-content: space-between;
   color: rgb(104, 71, 71);
   padding: 20px;
-  margin-top: 20px;
+  margin:auto;
+  
 }
 
 .wrapper-description-header {
